@@ -1,0 +1,15 @@
+[Unit]
+Description=Screen Button monitor
+#After=syslog.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/
+ExecStart=/usr/share/screen-btn/screen_btn.py
+#StandardOutput=syslog
+#StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target
