@@ -10,4 +10,4 @@
 * Press button on BCM22 for 5 seconds to reboot.
 * Press button on BCM27 for 10 seconds to shutdown.
 * Press buttons on BCM22 and BCM27 simultaneously for 5 seconds to switch output between LCD and HDMI and reboot.
-
+* Double click button on BCM22 to toggle wifi power.
